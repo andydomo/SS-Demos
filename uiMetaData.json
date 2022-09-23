@@ -1,0 +1,224 @@
+{
+  "name": "SS-Demo",
+  "connectorType": "",
+  "userId": null,
+  "domoClientId": "",
+  "domoClientSecret": "",
+  "additionalInfo": "",
+  "reportLength": 2,
+  "days": 7,
+  "reports": [
+    "me",
+    "me.work"
+  ],
+  "advancedReports": null,
+  "guid": "6cc464b4-1533-4221-ab71-dfb374ad5179",
+  "publishPrivate": true,
+  "visibilityType": {
+    "label": null,
+    "value": "private"
+  },
+  "parameters": [
+    {
+      "name": "ki",
+      "type": "discovery",
+      "required": false,
+      "order": 0,
+      "options": [
+        {
+          "name": "value",
+          "value": "label"
+        }
+      ],
+      "command": {
+        "name": "ki",
+        "code": "discovery.addOption(\"value\",\"label\")\n\ndiscovery.addLeaf(discovery.tree,\"opt1\")\ndiscovery.addLeaf(discovery.tree,\"opt2\")\ndiscovery.publishTree();",
+        "type": "dropdown"
+      },
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:918",
+      "tree": {
+        "nodes": [
+          {
+            "expanded": false,
+            "label": "opt1",
+            "leaf": true,
+            "nodes": []
+          },
+          {
+            "expanded": false,
+            "label": "opt2",
+            "leaf": true,
+            "nodes": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "dws",
+      "type": "discovery",
+      "required": false,
+      "order": 0,
+      "options": [
+        {
+          "name": "value",
+          "value": "label"
+        }
+      ],
+      "command": {
+        "name": "dws",
+        "code": "discovery.addOption(\"value\",\"label\")\n\ndiscovery.addLeaf(discovery.tree,\"opt1\")\ndiscovery.addLeaf(discovery.tree,\"opt2\")\ndiscovery.publishTree();",
+        "type": "dropdown"
+      },
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:919",
+      "tree": {
+        "nodes": [
+          {
+            "expanded": false,
+            "label": "opt1",
+            "leaf": true,
+            "nodes": []
+          },
+          {
+            "expanded": false,
+            "label": "opt2",
+            "leaf": true,
+            "nodes": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "sdsd",
+      "type": "discovery",
+      "required": false,
+      "order": 1,
+      "options": [
+        {
+          "name": "value",
+          "value": "label"
+        }
+      ],
+      "command": {
+        "name": "sdsd",
+        "code": "discovery.addOption(\"value\",\"label\")\n\ndiscovery.addLeaf(discovery.tree,\"opt1\")\ndiscovery.addLeaf(discovery.tree,\"opt2\")\ndiscovery.publishTree();",
+        "type": "dropdown"
+      },
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:920",
+      "tree": {
+        "nodes": [
+          {
+            "expanded": false,
+            "label": "opt1",
+            "leaf": true,
+            "nodes": []
+          },
+          {
+            "expanded": false,
+            "label": "opt2",
+            "leaf": true,
+            "nodes": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "qwerty",
+      "type": "discovery",
+      "required": false,
+      "order": 2,
+      "options": [],
+      "command": {
+        "name": "qwerty",
+        "code": null,
+        "type": "dropdown"
+      },
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:921",
+      "tree": null
+    },
+    {
+      "name": "qwe",
+      "type": "discovery",
+      "required": false,
+      "order": 3,
+      "options": [
+        {
+          "name": "value",
+          "value": "label"
+        }
+      ],
+      "command": {
+        "name": "qwe",
+        "code": "discovery.addOption(\"value\",\"label\")\n\ndiscovery.addLeaf(discovery.tree,\"opt1\")\ndiscovery.addLeaf(discovery.tree,\"opt2\")\ndiscovery.publishTree();",
+        "type": "dropdown"
+      },
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:922",
+      "tree": {
+        "nodes": [
+          {
+            "expanded": false,
+            "label": "opt1",
+            "leaf": true,
+            "nodes": []
+          },
+          {
+            "expanded": false,
+            "label": "opt2",
+            "leaf": true,
+            "nodes": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "date",
+      "type": "dateSelector",
+      "required": false,
+      "order": 4,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:923"
+    }
+  ],
+  "commands": null,
+  "showAdvanced": true,
+  "submittedVersion": 0,
+  "submittedMajorVersion": 0,
+  "publishedVersion": 0,
+  "workbenchEnabled": false,
+  "dataProviderCreated": false,
+  "description": null,
+  "tags": null,
+  "successResponseDefinition": null,
+  "errorResponseDefinition": null,
+  "updateCode": false,
+  "requestingCustomerId": null,
+  "ownerId": null,
+  "ownerCustomerId": null,
+  "parentGuid": "00136399-ea9c-4020-9c46-1f33149b0364",
+  "testingProfiles": null,
+  "visible": true
+}
